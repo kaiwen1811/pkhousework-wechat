@@ -1,0 +1,95 @@
+/**index.wxss**/
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  background: #3F51B5;
+  padding: 20rpx 0;
+  width: 100%;
+}
+.user-wrap {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 60rpx;
+  font-size: 28rpx;
+}
+.user-edit {
+  width: 110rpx;
+  height: 50rpx;
+  font-size: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  padding: 20rpx 0;
+  background: #fff;
+  color: #00aaee;
+}
+.picker-wrap {
+  margin-left: 80rpx;
+}
+.time-end {
+  float: right;
+  width: 110rpx;
+  height: 50rpx;
+  font-size: 20rpx;
+  background: #3F51B5;
+  color: #fff;
+}
+.task {
+  margin-top: 182rpx;
+  height: 100%;
+  width: 100%;
+  padding-top: 20rpx;
+}
+.task-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.task-side {
+  width: 50%;
+  padding: 0 20rpx;
+}
+.task-item {
+  background: #fff;
+  color: #333;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.task-finish {
+  width: 110rpx;
+  height: 50rpx;
+  background: #3F51B5;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.add-task {
+  position: fixed;
+  bottom: 10px;
+  right: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background: #3F51B5;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
