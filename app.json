@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/task/task",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/task/task"
+    "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",

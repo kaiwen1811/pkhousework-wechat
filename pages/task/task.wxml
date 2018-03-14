@@ -1,2 +1,4 @@
 <!--pages/task/task.wxml-->
-<text>pages/task/task.wxml</text>
+<view class='container'>
+  <view class='top'>已拥有的家务</view>
+</view>
