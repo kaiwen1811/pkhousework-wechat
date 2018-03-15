@@ -5,7 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    tasks: [
+      { name: '洗碗', score: 5 },
+      { name: '做饭', score: 5 },
+      { name: '买菜', score: 5 },
+      { name: '洗衣服', score: 5 },
+      { name: '扫地', score: 5 },
+      { name: '拖地', score: 5 },
+      { name: '洗碗', score: 5 },
+      { name: '做饭', score: 5 },
+      { name: '买菜', score: 5 },
+      { name: '洗衣服', score: 5 },
+      { name: '扫地', score: 5 },
+      { name: '拖地', score: 5 },
+      { name: '洗碗', score: 5 },
+      { name: '做饭', score: 5 },
+      { name: '买菜', score: 5 },
+      { name: '洗衣服', score: 5 },
+      { name: '扫地', score: 5 },
+      { name: '拖地', score: 5 },
+    ]
   },
 
   //自定义函数

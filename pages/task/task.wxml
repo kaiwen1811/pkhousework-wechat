@@ -1,4 +1,18 @@
 <!--pages/task/task.wxml-->
 <view class='container'>
-  <view class='top'>已拥有的家务</view>
+  <view class='top'><text>已拥有的家务</text></view>
+  <scroll-view class='task-wrap' scroll-y="true">
+    <view class="task-item" wx:for="{{tasks}}" wx:key="key">
+      <view class="item-wrap {{index%2==0?'bg-one':'bg-two'}}">
+        <text class="item-name">{{index+1}}.{{item.name}}</text>
+        <text class='item-star'>🌟🌟🌟🌟🌟</text>
+        <button class='item-edit'>编辑</button>
+      </view>
+    </view>
+  </scroll-view>
+  <view class='bottom'>
+    <input type="text" placeholder='任务名称' class='text-add' confirm-type="done"></input>
+    <view class='star-wrap'>🌟🌟🌟🌟🌟</view>
+    <button class='bt-add'>添加</button>
+  </view>
 </view>
