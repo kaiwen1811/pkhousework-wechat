@@ -13,6 +13,6 @@
   <view class='bottom'>
     <input type="text" placeholder='任务名称' class='text-add' confirm-type="done"></input>
     <view class='star-wrap'>🌟🌟🌟🌟🌟</view>
-    <button class='bt-add'>添加</button>
+    <button class='bt-add' open-type="share">添加</button>
   </view>
 </view>
