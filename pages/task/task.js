@@ -34,6 +34,9 @@ Page({
   formReset: function () {
     console.log('form发生了reset事件')
   },
+  wave: function () {
+    wx.vibrateShort()
+  },
 
   /**
    * 生命周期函数--监听页面加载

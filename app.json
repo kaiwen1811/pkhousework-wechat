@@ -1,13 +1,13 @@
 {
   "pages":[
-    "pages/task/task",
     "pages/index/index",
+    "pages/task/task",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#353535",
     "navigationBarTitleText": "PKHouseWork",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"fff"
   }
 }

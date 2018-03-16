@@ -6,7 +6,7 @@
       <view class="item-wrap {{index%2==0?'bg-one':'bg-two'}}">
         <text class="item-name">{{index+1}}.{{item.name}}</text>
         <text class='item-star'>🌟🌟🌟🌟🌟</text>
-        <button class='item-edit'>编辑</button>
+        <button class='item-edit' bindtap='wave'>编辑</button>
       </view>
     </view>
   </scroll-view>
