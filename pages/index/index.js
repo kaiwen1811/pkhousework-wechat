@@ -10,6 +10,7 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     date: '2016-09-01',
     test: '开始',
+    listData: [],
     userOne: [
       { id: 1, name: '洗碗', grade: 5 },
       { id: 2, name: '刷地', grade: 2 },
@@ -36,7 +37,23 @@ Page({
       url: '../logs/logs'
       })
   },
+  //测试获取数据
+  getData: function() {
+    wx.request({
+      url: 'https://api.douban.com/v2/book/1220562', //仅为示例，并非真实的接口地址
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: function (res) {
+        console.log(res.data)
+      },
+      fail: function() {
+        console.log("fail")
+      }
+    })
+  },
   onLoad: function () {
+    this.getData();
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
